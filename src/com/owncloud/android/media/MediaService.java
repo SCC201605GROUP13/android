@@ -301,6 +301,7 @@ public class MediaService extends Service implements OnCompletionListener, OnPre
      * if needed. reset the existing media player if one already exists.
      */
     protected void createMediaPlayerIfNeeded() {
+      println("Create Media player");
         if (mPlayer == null) {
             mPlayer = new MediaPlayer();
 
