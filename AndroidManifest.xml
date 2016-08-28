@@ -17,12 +17,12 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+//<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.owncloud.android"
     android:versionCode="20100000"
     android:versionName="2.1.0" >
 
-    <uses-sdk
+   // <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="23" />
 
@@ -32,7 +32,7 @@
         since GET_ACCOUNTS is an special case, the permission is not really needed to access accounts
         owned by the app, our use case.
         See note in http://developer.android.com/intl/es/reference/android/Manifest.permission.html#GET_ACCOUNTS -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  //  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <!-- USE_CREDENTIALS, MANAGE_ACCOUNTS and AUTHENTICATE_ACCOUNTS are needed for API < 23.
         In API >= 23 the do not exist anymore -->
